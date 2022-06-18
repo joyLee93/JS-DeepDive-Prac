@@ -13,6 +13,7 @@ var octal = 0o101;
 var hex = 0x41;
 
 console.log("======Typeof02======");
+console.log(binary);
 console.log(typeof binary);
 console.log(typeof octal);
 console.log(typeof hex);
@@ -28,6 +29,6 @@ console.log(10/-0);
 console.log(1 * 'String');
 
 //console.clear();
-var x = nan;
+var x = NaN;
 
 

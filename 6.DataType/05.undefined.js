@@ -2,6 +2,9 @@
 // 변수를 참조했을 때 undefined가 반환된다면 참조한 변수가 선언 이후 값이 할당된 적이 없는, 초기화 되지 않은 변수
 // 개발자가 직접 undefined는 설정하는건 권장되지 않는다. 변수에 값이 없다는 것을 명시하고 싶을 때에는 null 할당 
 
+var poo = null;
+console.log(poo);
+
 var foo;
 console.log(foo);
 
